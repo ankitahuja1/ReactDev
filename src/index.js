@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Header from './Header';
-import SimpleBottomNavigation from './SimBottomNavigation';
-import BlsCard from './BlsCard';
+import Ratu from './Ratu'
 import Dynamo from './Dynamic';
+import Diro from './Diro';
+
 ReactDOM.render(
-  <Dynamo/>,
+    <>
+  <Dynamo/>
+    </>,
   document.getElementById('root')
 );

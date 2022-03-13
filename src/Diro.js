@@ -4,9 +4,11 @@ import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
+import {Container} from "@mui/material";
 
 export default function RowRadioButtonsGroup() {
     return (
+        <Container>
         <FormControl>
             <FormLabel id="demo-row-radio-buttons-group-label">Gender</FormLabel>
             <RadioGroup
@@ -25,5 +27,6 @@ export default function RowRadioButtonsGroup() {
                 />
             </RadioGroup>
         </FormControl>
+        </Container>
     );
 }
